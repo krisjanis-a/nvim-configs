@@ -36,4 +36,12 @@ return {
       })
     end,
   },
+  {
+    "nvim-tree/nvim-tree.lua",
+    opts = {
+      live_filter = {
+        always_show_folders = false,
+      },
+    },
+  }
 }
