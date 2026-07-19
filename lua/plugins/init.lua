@@ -43,5 +43,12 @@ return {
         always_show_folders = false,
       },
     },
-  }
+  },
+  {
+    "ActivityWatch/aw-watcher-vim",
+    lazy = false,   -- must load on startup, not on a command/filetype trigger
+    init = function()
+      vim.g.aw_hostname = "krish_zBook"
+    end,
+  },
 }
